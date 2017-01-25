@@ -1,0 +1,10 @@
+3/ (1 punt) Waarom kunnen REST en SOAP eigenlijk niet met elkaar vergeleken worden, 
+maw wat is het fundamentele verschil tussen beiden?
+------------------------------------------------------------------------------------
+-SOAP is een XML-gebaseerd message protocal, REST is een architecturaal style protocol en i ook stateless.
+
+
+4/ (3 punten) Eén van de grote voordelen van SOAP XML is type safety. Beschrijf (kort!) twee simpele manieren
+ waarop je dit in REST ook zou kunnen implementeren gebruik makend van standaard libraries.
+ ---------------------------------------------------------------------------------------------------------------
+Via basic authentication en https, met andere woorden moet men altijd de validiteit verifiëren van de input.
